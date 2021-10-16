@@ -31,7 +31,7 @@ on:
       pull_request_author:
         required: false
       pull_request_description:
-        default: 'Empty PR description 🤡'
+        default: 'Empty PR description sadasdas🤡'
 
 jobs:
   dispatchCommand:
