@@ -31,7 +31,7 @@ on:
       pull_request_author:
         required: false
       pull_request_description:
-        default: 'Empty PR description sadasdas🤡'
+        default: 'Empty PR description 🤡'
 
 jobs:
   dispatchCommand:
@@ -44,7 +44,7 @@ jobs:
       with:
         ref: ${{ github.event.inputs.ref }}
     
-    - uses: actions/multisig-actions@0.0.1
+    - uses: listonjesse/multisig-actions@0.0.1
       with:
         comment-id: ${{ github.event.inputs.comment-id }}
         file: ${{ github.event.inputs.file }}
